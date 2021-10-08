@@ -1,31 +1,86 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>
         Сайт Марка
     </title>
 </head>
+
 <body>
     <h1 align="center">
         О языке HTML
     </h1>
+    <h2>
+        Общие сведения
+    </h2>
     <p>
-        HTML - это язык разметки, для более подробной информации <a href="https://ru.wikipedia.org/wiki/HTML">сюда</a>.
-        За официальной информацией о тегах <a href="https://developer.mozilla.org/ru/docs/Web/HTML">сюда</a>. А за неофициальной, но удобной информацией <a href="http://htmlbook.ru/html">сюда</a>.
+        Язык HTML отвечает за структуру и содержание страницы. 
+        Он состоит из команд, который называються тегами. 
+        Любой тэг состоит из имени, заключённого между знаками &laquo;меньше&raquo; и &laquo;больше&raquo;.
+        Примеры тегов: &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;.
+        При этом все теги подразделяются на: парные, обрабатывающие фрагмент текста, и одиночные, применимые для всей страницы. 
+        Более подробная информация о языке на <a href="https://ru.wikipedia.org/wiki/HTML">wikipedia</a> или официальной странице <a href="https://www.w3.org/">The World Wide Web Consorium (W3C)</a>. 
+        Но удобнее пользоваться просто сайтом <a href="http://htmlbook.ru/">htmlbook.ru</a>.
     </p>
+    <p>
+        Здесь же я оставлю маленькую шпаргалку по основным тегам.
+    </p>
+    <ul>
+        <li>
+            &lt;p&gt;&lt;/p&gt;&mdash;абзац
+        </li>
+        <li>
+            &lt;br&gt;&mdash;переход на новую строку
+        </li>
+        <li>
+            &lt;pre&gt;&lt;/pre&gt;&mdash;<pre>
+                            предварительное 
+                                форматирование
+                                    текста
+            </pre>
+        </li>
+        <li>
+            &lt;code&gt;&lt;/code&gt;&mdash;форматирование с имитацией программного кода <br>
+            <code>
+                let a = prompt()<br>
+                console.log()<br>
+                alert(a)<br>
+            </code>
+        </li>
+        <li>
+            &lt;i&gt;&lt;/i&gt;&mdash;<i>курсив</i>
+        </li>
+        <li>
+            &lt;b&gt;&lt;/b&gt;&mdash;<b>жирный шрифт</b>
+        </li>
+        <li>
+            &lt;mark&gt;&lt;/mark&gt;&mdash;<mark>выделенный шрифт</mark>
+        </li>
+        <li>
+            &lt;sup&gt;&lt;/sup&gt;&mdash;<sup>верхнее начертание</sup>
+        </li>
+        <li>
+            &lt;sub&gt;&lt;/sub&gt;&mdash;<sub>нижнее начертание</sub>
+        </li>
+        <li>
+            &lt;!--неработающий код--!&gt;&mdash;комментарии в языке HTML
+        </li>
+    </ul>
     <footer>
         <ul>
             <li>
-                <a href="../index.html"> Главная страница </a> 
+                <a href="../index.html"> Главная страница </a>
             </li>
             <li>
-                <a href="Third_page.html"> CSS оформление </a> 
+                <a href="Third_page.html"> CSS оформление </a>
             </li>
             <li>
-                <a href="Fourth_page.html"> JS программирование </a> 
+                <a href="Fourth_page.html"> JS программирование </a>
             </li>
         </ul>
     </footer>
 </body>
+
 </html>

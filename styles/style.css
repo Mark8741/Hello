@@ -1,0 +1,20 @@
+.nav li {
+    display:inline;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../images/background.jpg);
+}
+table.header {
+    background-color: rgba(0, 255, 255, 0.247);
+}
+table.main {
+    background-color: rgba(0, 255, 255, 0.418);
+}
+table.footer {
+    background-color: rgba(0, 255, 255, 0.726);
+}
+h1.header {
+    font-family:initial;
+    color: rgb(117, 84, 206);
+}

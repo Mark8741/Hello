@@ -3,26 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <title>
-        Сайт Марка
+        О CSS верстке
     </title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-    <h1 align="center">
-        Об оформлении на языке CSS
-    </h1>
-    <footer>
-        <ul>
-            <li>
-                <a href="../index.html"> Главная страница </a> 
-            </li>
-            <li>
-                <a href="Second_page.html"> HTML программирование </a> 
-            </li>
-            <li>
-                <a href="Fourth_page.html"> JS программирование </a> 
-            </li>
-        </ul>
-    </footer>
-    </body>
+    <table border="1" width="100%" height="75%" class="header">
+        <tr>
+            <td rowspan="2" width="100">
+                <img src="../images/csslogo.jpg" width="100" height="100" alt="">
+            </td>
+            <td rowspan="2">
+                <h1 class="header">
+                    Мой сайт - мой дизайн
+                </h1>
+            </td>
+            <td>
+                Логин
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Пароль
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <ul class="nav">
+                    <li>
+                        <a href="../index.html"> Главная страница </a>
+                    </li>
+                    <li>
+                        <a href="Third_page.html"> Вёрстка </a>
+                    </li>
+                    <li>
+                        <a href="Fourth_page.html"> JS программирование </a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" height="75%" class="main">
+        <tr>
+            <td rowspan="2" width="200">
+                <p>
+                    Список товарищей
+                    <ul>
+                        <li>
+                            Товарищ 1
+                        </li>
+                        <li>
+                            Товарищ 2
+                        </li>
+                        <li>
+                            Товарищ 3
+                        </li>
+                    </ul>
+                </p>
+            </td>
+            <td>
+                
+                    CSS - это язык оформления HTML-документов. За более подробной информацией <a href="">сюда</a>. 
+                    Так как он является вспомогательным языком, то существует несколько основных способов его добавления на web-страницу:
+<p>
+    <ul>
+        <li>
+            Внешний &lt;link rel="stylesheet" href="style.css"&gt;
+        </li>
+        <li>
+            Внутренний глобальный &lt;style&gt;&lt;/style&gt;
+        </li>
+        <li>
+            Внутренний локальный &lt;span style="color: red"&gt;&lt;/span&gt;
+        </li>
+    </ul>
+</p>
+
+Синтаксис языка выглядит следующим образом: 
+сначала указывается изменяемый элемент с помощью селектора, после этого в фигурных скобках перечисляются через точку с запятой изменяемые свойства элемента (цвет, размер, расположение и т.д.), 
+затем напротив каждого свойства указывается значение (red, left, 1px и т.д.). Например:
+<code>
+    <pre>
+        table  {
+            width: 80%;
+            border-color: white;
+            border-style: groove;
+            border-width: 5px;
+        }
+    </pre>
+</code>
+                    
+В ситуации когда изменить необходимо только некоторые элементы, следует пользоваться указателями класса: когда одни и теже теги принадлежат разным классам и оформляются по разному.
+<table class="header"></table>
+<table class="main"></table>
+                
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table border="1" width="100%" height="75%" class="footer">
+        <tr>
+            <td>
+                Ученик 10 класса УнШ ДВФУ г.Владивосток. Сайты визитки от 1 тыс. рублей. Кабинет №222
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
+<!-- &lt;	&#60;	<	знак "меньше" -->
+<!-- &gt;	&#62;	>	знак "больше" -->

@@ -1,0 +1,137 @@
+div.main {
+    background-color: rgb(194, 194, 194);
+    width: 1040px;
+    height: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+main {
+    width: 1040px;
+    height: 980px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(9, 100px)
+}
+div.a {
+    background-color:rgb(133, 124, 187);
+    grid-column: 1/3;
+    grid-row: 1/4;
+    font-size: 64pt;
+    font-family: sans-serif;
+}
+div.b {
+    background-color:white;
+    grid-column: 3/4;
+    grid-row: 1/4;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.c {
+    background-color:white;
+    grid-column: 4/5;
+    grid-row: 1/4;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.d {
+    background-color:white;
+    grid-column: 5/6;
+    grid-row: 1/4;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.e {
+    background-color:white;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.f {
+    background-color:white;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.g {
+    background-color:white;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.h {
+    background-color:rgb(247, 130, 241);
+    grid-column: 4/6;
+    grid-row: 4/5;
+    font-size: 32pt;
+    font-family: sans-serif;
+}
+div.i {
+    background-color:white;
+    grid-column: 1/2;
+    grid-row: 5/7;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.j {
+    background-color:white;
+    grid-column: 2/3;
+    grid-row: 5/7;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.k {
+    background-color:white;
+    grid-column: 3/4;
+    grid-row: 5/7;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.l {
+    background-color:white;
+    grid-column: 4/5;
+    grid-row: 5/7;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.m {
+    background-color:white;
+    grid-column: 5/6;
+    grid-row: 5/7;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.n {
+    background-color:rgb(218, 142, 241);
+    grid-column: 1/3;
+    grid-row: 7/10;
+    font-size: 64pt;
+    font-family: sans-serif;
+}
+div.o {
+    background-color:white;
+    grid-column: 3/4;
+    grid-row: 7/10;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.p {
+    background-color:white;
+    grid-column: 4/5;
+    grid-row: 7/10;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+div.q {
+    background-color:white;
+    grid-column: 5/6;
+    grid-row: 7/10;
+    font-size: 18pt;
+    font-family: sans-serif;
+}

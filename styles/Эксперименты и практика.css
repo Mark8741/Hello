@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+}
+header {
+    background-color:blue;
+    width: 960px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.logo {
+    background-color:orange;
+    height: 90%;
+    width: 20%;
+    font-size: 24pt;
+    float: left;
+    border-radius: 20px;
+}
+div.name {
+    background-color:skyblue;
+    height: 40%;
+    width: 70%;
+    font-size: 24pt;
+    font-family: 'Gill Sans';
+    float: right;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+nav {
+    background-color:skyblue;
+    height: 40%;
+    width: 70%;
+    font-size: 24pt;
+    font-family: 'Gill Sans';
+    float: right;
+    border-radius: 20px;
+}
+div.main {
+    background-color:blue;
+    border-radius: 10px;
+    width: 960px;
+    height: 980px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24pt;
+}
+article {
+    background-color:orange;
+    width: 70%;
+    height: 100%;
+    font-family: 'Gill Sans';
+    font-size: 24pt;
+    border-radius: 20px;
+    float: right;
+}
+aside {
+    background-color:greenyellow;
+    width: 25%;
+    height: 100%;
+    font-family: 'Gill Sans';
+    font-size: 24pt;
+    border-radius: 20px;
+}
+p.Menu {
+    float: left;
+}
+footer {
+    background-color:blue;
+    border-radius: 10px;
+    width: 960px;
+    height: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24pt;
+}

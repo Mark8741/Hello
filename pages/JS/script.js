@@ -38,6 +38,6 @@ document.querySelector('main').append(text)
 
 let silka = document.createElement('a')
 
-document.querySelector('body').append(silka)
+document.querySelector('main').append(silka)
 silka.innerText = 'ссылочка'
 silka.setAttribute('href', 'JSprikol/Code.html')

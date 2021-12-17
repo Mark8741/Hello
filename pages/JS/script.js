@@ -35,3 +35,9 @@ text.style.width = '800px'
 text.style.fontSize = '32pt'
 
 document.querySelector('main').append(text)
+
+let silka = document.createElement('a')
+
+document.querySelector('body').append(silka)
+silka.innerText = 'ссылочка'
+silka.setAttribute('href', 'JSprikol/Code.html')
